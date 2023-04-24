@@ -108,6 +108,7 @@ let rMath;
 if (localStorage.getItem("rNumber") == null || localStorage.getItem("rNumber") == "") {
     rMath = Math.floor(Math.random() * 10) + 1;
     numberField.innerText = rMath
+    localStorage.setItem("rNumber", rMath)
 }
 else {
     rMath = localStorage.getItem("rNumber")
