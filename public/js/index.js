@@ -1,4 +1,4 @@
-async function hasJsonStructure(str) {
+function hasJsonStructure(str) {
     if (typeof str !== 'string') return false;
     try {
         const result = JSON.parse(str);
@@ -105,7 +105,7 @@ async function addName() {
 
 let rMath;
 
-if (localStorage.getItem("rNumber") == "") {
+if (localStorage.getItem("rNumber") == null || localStorage.getItem("rNumber") == "") {
     rMath = Math.floor(Math.random() * 10) + 1;
     numberField.innerText = rMath
 }
