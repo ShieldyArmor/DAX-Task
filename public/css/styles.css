@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nameCont {
+    width: 100%;
+    display: grid;
+    text-align: center;
+}
+
+#numberCont {
+    width: 100%;
+    display: grid;
+    text-align: center;
+    height: 50vh;
+    align-content: center;
+}
+
+#numberField {
+    font-size: 10em;
+}
+
+#nameListCont {
+    width: 100%;
+    display: grid;
+    text-align: center;
+}
+
+#nameList {
+ width: 100%;
+}

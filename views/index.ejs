@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konrad DAX Oppgave</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    
+<div id="bodyCont">
+
+    
+<div id="nameCont">
+    <form>
+        <label for="nameInput">Insert name: </label>
+        <input type="text" id="nameInput">
+        <label for="nameInput">Insert number: </label>
+        <input type="number" min="1" max="10" id="numberInput">
+        <button type="button" onclick="addName()">add</button>
+    </form>
+</div>
+
+<div id="numberCont">
+    <h1 id="numberText">YOUR LUCKY NUMBER IS:</h1>
+    <h2 id="numberField"></h2>
+    <h3 id="numberTime"></h3>
+</div>
+
+
+<div id="nameListCont">
+    <h2>Big thank you to:</h1>
+
+    <ul id="nameList">
+    
+    </ul>
+    
+    <h2>For leaving their mark!</h1>
+</div>
+
+</div>
+
+    <script src="js/index.js" defer></script>
+</body>
+</html>
